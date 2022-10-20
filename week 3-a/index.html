@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <label for="first name"><b>First Name</b> </label><br />
+  <input type="text" name="first name" id="" required /><br />
+
+  <label for="last name"><b>Last Name</b> </label><br />
+  <input type="text" name="last name" id="" required /><br />
+
+  <label for="phonenumber"><b> Phone number</b></label><br />
+
+  <input type="tel" name="phonenumber" id="" required /><br />
+
+  <label for="Email"><b> Email</b></label><br />
+  <input type="email" name="email" id="email" required pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"> <br>
+
+  <label for="Gender"><b> Gender</b></label><br />
+  <select name="gender" required>
+    <option value="none" selected>none</option>
+    <option value="male" selected>Male</option>
+    <option value="female" selected>Female</option>
+    <option value="others" selected>Others</option>
+  </select><br />
+  
+  <label for="Date Of Birth"><b> Date Of Birth</b></label><br />
+  <input type="date" name="Date of birth" required /><br />
+  <label for="Favorite color"><b>Select your favorite color</b> </label><br />
+  <input type="color" name="color" id="favritecolor" required value="000000" /><br />
+  <label for="password"><b> Set your password</b></label><br />
+  <input type="password" name="password" id="" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$" /><br />
+  <button type="submit"><b>Register</b> </button><br>
+  <a href="login.html"><strong>LOG IN</strong> </a>
+  </form>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

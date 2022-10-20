@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+margin:0;
+ border:0;
+ padding:0;
+  box-sizing:border-box;
+}
+body{
+  margin: 0px; 
+  height: 100%;
+  font-family:Lexend Deca;
+  Font-size: 15px;
+  Weight: 400;
+}
+
+.mainBox{
+  margin: auto;
+ display: flex; 
+/*   padding: 50px;  */
+ flex-direction: row;
+align-items:center ;
+justify-content: center;
+background-color:  hsl(0, 0%, 95%);
+width: 50%;
+height: 100%;
+min-height: 100vh;
+}
+.box1{
+  background-color: hsl(31, 77%, 52%);
+  padding:2em;
+}
+
+.box2{
+  background: hsl(184, 100%, 22%);
+  padding:2em;
+}
+.box3{
+/*   height: 270px; */
+  background-color: hsl(179, 100%, 13%);
+  padding:2em;
+}
+button{
+color:  hsl(0, 0%, 95%);
+  padding:1em 2em 1em 2em;
+  margin:4em 2em 2em 0em;
+  border-radius: 25px;
+}
+div h2{
+font-family:Big Shoulders Display;
+ Weight: 700;
+  padding:1em 1em 1em 0em;
+  color:hsl(0, 0%, 95%);
+}
+div p{
+color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button1{
+/*   font-size: 15px; */
+  color: hsl(31, 77%, 52%);
+}
+.button2{
+  color: hsl(184, 100%, 22%); 
+}
+.button3{
+  color: hsl(179, 100%, 13%);
+}
+
+
+
+
+
+
+### Font
+
+
+- 
+
+
+
